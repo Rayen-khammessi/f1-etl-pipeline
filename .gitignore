@@ -1,0 +1,15 @@
+# venv & cache
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/
+data/processed/
+
+# Credentials
+.env

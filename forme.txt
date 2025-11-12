@@ -1,0 +1,11 @@
+deactivate
+
+source venv/bin/activate
+
+Question	                     Answer
+(venv) showing in terminal	     ✅ Normal — it means your virtual environment is active. Keep it on while coding, deactivate when done.
+fastf1_http_cache.sqlite file	 ✅ Created automatically by FastF1 for caching. Don’t touch it; it’s needed for faster re-runs.
+
+fastf1.Cache.enable_cache('data/raw')
+FastF1 created a cache system inside that folder to store downloaded race data locally.
+That way, if you fetch Monaco 2023 again, it won’t re-download it from the web — it will use the local cache, which makes your code much faster.

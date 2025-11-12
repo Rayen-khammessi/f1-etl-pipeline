@@ -1,0 +1,7 @@
+requests
+pandas
+matplotlib
+seaborn
+sqlite3-binary
+python-dotenv
+fastf1
